@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style type="text/css" id="mti_fontface_853bfcd2-9633-4789-ab90-6ec62910a568">@font-face{
+        font-family:"SST W20 Ultra Light";
+        src:url("https://fast.fonts.net/dv2/ot/14/30dace52-b9f4-48c2-bab5-dda075d0ba71.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Ultra Light Italic";
+        src:url("https://fast.fonts.net/dv2/ot/14/22461e8c-a824-4024-8a3e-74eb6e8a0e48.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Light";
+        src:url("https://fast.fonts.net/dv2/ot/14/68f1bb9f-2c5f-44c4-ab8e-193b6fb6b8a8.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Light Italic";
+        src:url("https://fast.fonts.net/dv2/ot/14/d6f8cc20-f30a-402a-89fd-633d6fc24412.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Roman";
+        src:url("https://fast.fonts.net/dv2/ot/14/dcb015ed-475f-4221-9b3c-157c4b6bc4ca.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Italic";
+        src:url("https://fast.fonts.net/dv2/ot/14/d0822bfe-bde7-42d2-bf95-899745fd56a7.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Medium";
+        src:url("https://fast.fonts.net/dv2/ot/14/ddee892c-8380-4323-84a1-11374952a430.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Medium Italic";
+        src:url("https://fast.fonts.net/dv2/ot/14/3410a1e6-1ef4-4be7-b59a-d80406501932.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Bold";
+        src:url("https://fast.fonts.net/dv2/ot/14/f2c57125-0b07-4b47-9b3e-cb9f6f2217aa.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Bold Italic";
+        src:url("https://fast.fonts.net/dv2/ot/14/b0afd202-c7e8-4d8a-898c-9039895c102f.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Heavy";
+        src:url("https://fast.fonts.net/dv2/ot/14/e88ca619-0934-422e-9f43-36c4068c5dc1.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Heavy Italic";
+        src:url("https://fast.fonts.net/dv2/ot/14/81dd6a9f-6e9d-4d7c-a5ca-fb8fe7a8b43a.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Condensed";
+        src:url("https://fast.fonts.net/dv2/ot/14/41816c57-608a-4835-a21b-2e0710b3b063.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W20 Condensed Bd";
+        src:url("https://fast.fonts.net/dv2/ot/14/b449db53-fa62-42a7-b683-44f02bd557d4.woff2?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&projectId=853bfcd2-9633-4789-ab90-6ec62910a568") format('woff2');}
+        @font-face{
+        font-family:"SST W55 Regular";
+        src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&fctypeId=14&fcId=baeafb7d-3786-412a-8937-caa73e0a83cb&origId=c08b2aab-0bb7-4d7d-81a0-10b60bd02645&fontdataversion=v2&env=undefined&projectId=853bfcd2-9633-4789-ab90-6ec62910a568&content=',-.0129ABCDEFGHIJKLMNOPRSTUVWZabcdefghijklmnopqrstuvwxyzBESb에swyMm8791") format('woff2');}
+        @font-face{
+        font-family:"SST W55 Bold";
+        src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e4841670a090e81868552f26f0d8186b9dd11b65b81ac62810257e136ad8e6bd4bcc876296eb978f99445f7da9e521c86ff957ead526664cb66ade3641baa3f7b4d3627beaca177417ddddcda5382b331b38730da233765b15ff942c99f802b2d01e0cbb7359476f901ef21c51c8dafb03b2a981d59fbd317c78ce0ecd7851f17254c18218b050696c733b1b8b19e23381c24dc32ceee673186dcdcb2bc086154b2d2dcc930dd3a3554109758e0302dde38bec72ccc5326d81a8f1bb078ee724eb61f5f427fc2f7b613bd709571f8e48c613e512c179f5d2a044dac60e0ee88017e1dd02c7cbed3110104782aa6f8f4454ef1f3132e0be1a5282ba71557b25f1090fe8e766d4fad428eb8a04b3630acf0ed062f04f80afe678eef79356694afbdd&fctypeId=3&fcId=5c2400be-9e3e-4820-85e6-c85dce3a9755&origId=d3edd9c5-4d4c-4d81-a044-931be6510f43&fontdataversion=v2&env=undefined&projectId=853bfcd2-9633-4789-ab90-6ec62910a568&content=ABDEGHIPRSTabcdeghilmnoprstuvyBESb에swyMm87") format('woff');}
+        </style>
+    <title>James Sunderland</title>
+</head>
+<body>
+<!--
+    <div class="container">
+
+        <div class="top"></div>
+        <div class="mid"></div>
+        <div class="bot"></div>
+
+    </div>
+    -->
+    
+    <div class="top-container">
+        <img src="img/cloud.png" alt="cloud" class="top-cloud">
+        <h1>I'm J</h1>
+        <p>A <span class="web">web</span>developer</p>
+        <img src="img/cloud.png" alt="cloud" class="bottom-cloud">
+        <img src="img/mountain.png" alt="cloud" class="mountain">
+    </div>
+
+    <!-- <div class="mid-container">
+
+    </div>
+
+    <div class="bottom-container">
+
+    </div>
+-->
+<div class="middle-container">
+    <div class="profile">
+      <img src="jsunn.jpg" alt="profile-pic" class="profile-pic">
+      <h2>James Sunderland</h2>
+      <p class="intro">Webdeveloper, webdesigner, electronic musician</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="htmlcss" src="img/skills.png" alt="skills-image">
+        <h3>Front end development</h3>
+        <p class="htmlcss-skill-p">Web development on the front end, using HTML, CSS, Javascipt, Bootstrap</p>
+      </div>
+
+      <div class="skill-row-2">
+        <img class="beats" src="img/fl.png" alt="">
+        <h3>Music production</h3>
+        <p class="beats-skill-p">I'm producing hiphop beats, I design sounds and do audio work</p>
+      </div>
+
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Contact me any time</h3>
+      <p class="contact-message">If you have any questions or interested in my services, feel free to message me on 
+        my social media acconunts below.
+      </p>
+      <a class="btn" href="mailto:jaysunnninesix@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Meta</a>
+    <a class="footer-link" href="https://www.soundcloud.com/sanjur0">SoundCloud</a>
+    <p class="copyright">© James Sunderland</p>
+  </div>
+  
+
+</body>
+</html>
